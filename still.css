@@ -1,0 +1,90 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url(bildes/free-photo-of-lutheran-church-in-ogre-latvia.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.con{
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+   flex-basis: 50%; 
+}
+h1{
+    color: white;
+    font-size: 100px;
+   
+}
+p{
+    color: white;
+    font-size: 11px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: 000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+   
+}
+.card-container {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+     /* Jūsu bilžu adrese */
+    background-position: center;
+    background-size: cover;
+    color: white;
+    transition: transform 0.5s;
+    
+}
+.card1{
+    background-image: url(bildes/480x297.webp);
+}
+.card2{
+    background-image: url(bildes/480x298.webp);
+}
+.card3{
+    background-image: url(bildes/LET_24712195-800x533.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+a{
+    text-decoration: none;
+}
+.card4{
+    background-image: url(bildes/360_F_222813884_nBaL0YbnBzea6wY8FGHlMK8hXqFLJUhx.jpg);
+}

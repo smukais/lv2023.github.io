@@ -1,0 +1,86 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(bildes/462.jpg);
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-image: url(bildes/pexels-photo-6510358.webp);
+   background-position: center;
+   
+}
+.valstis{
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.con{
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+   flex-basis: 50%; 
+}
+h1{
+    color: white;
+    font-size: 100px;
+   
+}
+p{
+    color: white;
+    font-size: 19px;
+    line-height: 22px;
+}
+.card-container {
+    display: flex;
+    justify-content: flex-end; 
+}
+.card {
+    width: 200px;
+    height: 230px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    transition: transform 0.5s;
+    
+}
+.card1{
+    background-image: url(bildes/pafbet_lbl.png);
+    color: black;
+}
+.card2{
+    background-image: url(bildes/90fde-eurochamps_basketlv.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+a{
+    text-decoration: none;
+}
+.card3{
+    background-image: url(bildes/download.png);
+    color: black;
+}
+button{
+    background-image: url(bildes/93634.png);
+    width: 40px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
